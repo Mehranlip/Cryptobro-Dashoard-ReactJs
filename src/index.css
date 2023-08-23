@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Nexa";
+    src: url("../src/assets/font/Nexa-ExtraLight.ttf");
+}
+
+
+.sidebar_body {
+    background-color: #F2F8FF;
+}
+
+.defult_itme-sidebar span {
+    color: #B8BED9;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.defult_itme-sidebar img {
+    opacity: 30%;
+}
+
+.defult_itme-sidebar:focus {
+    border-radius: 16px;
+    background: #4062FF;
+}
+
+.defult_itme-sidebar:focus span {
+    color: white;
+}
+
+.defult_itme-sidebar:focus img {
+    opacity: 70%;
+}
