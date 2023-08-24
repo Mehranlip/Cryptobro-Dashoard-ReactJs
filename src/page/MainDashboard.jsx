@@ -2,7 +2,7 @@ import React from 'react'
 
 function MainDashboard() {
     return (
-        <div className='col-10'>mainDashboard</div>
+        <div className='col-8'>mainDashboard</div>
     )
 }
 

@@ -35,9 +35,9 @@ function Sidebar() {
                             ))
                         }
                         {/* logout logo */}
-                        <div className='row justify-content-center align-items-center text-justify fixed-button mt-5'>
+                        <div className='row justify-content-center align-items-center text-justify fixed-button mt-2'>
                             <Link
-                                className='col text-decoration-none mb-4  logout-sidebar px-3 py-2 mt-5'>
+                                className='col text-decoration-none mb-4  logout-sidebar px-3 py-2 '>
                                 <img className='mx-2' src='../../public/white-icon/Styleguide/Logout.svg' />
                                 <span>Logout</span>
                             </Link>
@@ -61,7 +61,7 @@ function Sidebar() {
             {/* end nav in sm */}
 
             {/* sidebar in md ... */}
-            <div className='d-none d-md-inline col-12 col-md-2 px-5 py-2 sidebar_body vh-100'>
+            <div className='d-none d-md-inline col-12 col-md-auto px-0 px-md-5 py-2 sidebar_body vh-100'>
                 {/* logo */}
                 <div className='mb-4'>
                     <img src='../../public/logo/Logo.svg' />
