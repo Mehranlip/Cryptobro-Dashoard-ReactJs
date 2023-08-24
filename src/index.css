@@ -31,5 +31,18 @@
 }
 
 .defult_itme-sidebar:focus img {
-    opacity: 70%;
+    opacity: 100%;
+}
+
+.logout-sidebar span {
+    color: #FF4842;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar-toggler {
+    background-color: #4062FF;
 }
