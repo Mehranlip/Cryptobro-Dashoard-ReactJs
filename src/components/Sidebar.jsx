@@ -1,15 +1,13 @@
 import React from 'react'
-import { useState } from 'react';
 import sidebar_data from '../data/sidebar-data'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 function Sidebar() {
-    const [focusedIndex, setFocusedIndex] = useState(null);
+    const location = useLocation();
 
     const handleLinkFocus = (index) => {
         setFocusedIndex(index);
     };
-
 
 
 
@@ -26,8 +24,10 @@ function Sidebar() {
                                         <Link
                                             onFocus={() => handleLinkFocus(index)}
                                             onBlur={() => setFocusedIndex(null)}
-                                            to={item.link} className='col text-decoration-none mb-4 defult_itme-sidebar px-3 py-2'>
-                                            <img className='mx-2' src={focusedIndex === index ? item.image_light : item.image} />
+                                            to={item.link}
+                                            className={`col text-decoration-none mb-4 defult_itme-sidebar px-3 py-2 ${item.link === location.pathname ? 'defult_itme-sidebar-select' : ''}`}
+                                        >
+                                            <img className='mx-2' src={item.link === location.pathname ? item.image_light : item.image} />
                                             <span>{item.title}</span>
                                         </Link>
                                     </div>
@@ -63,7 +63,7 @@ function Sidebar() {
             {/* sidebar in md ... */}
             <div className='d-none d-md-inline col-12 col-md-auto px-0 px-md-5 py-2 sidebar_body vh-100'>
                 {/* logo */}
-                <div className='mb-4'>
+                <div className='mb-5'>
                     <img src='../../public/logo/Logo.svg' />
                 </div>
                 {/* end logo */}
@@ -74,8 +74,10 @@ function Sidebar() {
                                 <Link
                                     onFocus={() => handleLinkFocus(index)}
                                     onBlur={() => setFocusedIndex(null)}
-                                    to={item.link} className='col text-decoration-none mb-4 defult_itme-sidebar px-3 py-2'>
-                                    <img className='mx-2' src={focusedIndex === index ? item.image_light : item.image} />
+                                    to={item.link}
+                                    className={`col text-decoration-none mb-4 defult_itme-sidebar px-3 py-2 ${item.link === location.pathname ? 'defult_itme-sidebar-select' : ''}`}
+                                >
+                                    <img className='mx-2' src={item.link === location.pathname ? item.image_light : item.image} />
                                     <span>{item.title}</span>
                                 </Link>
                             </div>

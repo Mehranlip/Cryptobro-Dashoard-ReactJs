@@ -11,7 +11,7 @@
 .defult_itme-sidebar span {
     color: #B8BED9;
     font-family: Nexa;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -21,18 +21,23 @@
     opacity: 30%;
 }
 
-.defult_itme-sidebar:focus {
+
+.defult_itme-sidebar-select {
     border-radius: 16px;
     background: #4062FF;
+    transition: 10ms ease-in-out;
 }
 
-.defult_itme-sidebar:focus span {
+.defult_itme-sidebar-select span {
     color: white;
 }
 
-.defult_itme-sidebar:focus img {
+.defult_itme-sidebar-select img {
     opacity: 100%;
 }
+
+
+
 
 .logout-sidebar span {
     color: #FF4842;
