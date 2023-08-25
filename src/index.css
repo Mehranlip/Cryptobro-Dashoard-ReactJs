@@ -38,7 +38,6 @@
 
 
 
-
 .logout-sidebar span {
     color: #FF4842;
     font-family: Nexa;
@@ -51,3 +50,86 @@
 .navbar-toggler {
     background-color: #4062FF;
 }
+
+
+/* searchbar components */
+.search-bar {
+    margin-top: 15px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(48, 73, 191, 0.05);
+}
+
+.search-bar input[type="search"] {
+    width: 85%;
+    background: transparent;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: none;
+    border-radius: inherit;
+}
+
+input[type="search"]::placeholder {
+    color: var(--grey-400, #C4CDD5);
+    font-family: Nexa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("../public/icons/Search.svg") no-repeat center;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+button[type="submit"]:hover {
+    opacity: 1;
+}
+
+/* end searchbar commponents */
+
+/* banner componnets */
+.banner-body {
+    border-radius: 24px;
+    background: #4062FF;
+    box-shadow: 0px 0px 40px 0px rgba(48, 73, 191, 0.04);
+}
+
+.banner-body p {
+    color: var(--common-white, #FFF);
+    font-family: Nexa;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-body button {
+    color: var(--common-white, #FFF);
+    text-align: center;
+    font-family: Nexa;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 16px;
+    background: #40BAFF;
+}
+
+.banner-image {
+    width: 250px;
+    height: 220px;
+    background: transparent url("../public/white-icon/Styleguide/nft-owner-4418547-3664058\ 1.svg") no-repeat center;
+}
+
+/* end banner components */
