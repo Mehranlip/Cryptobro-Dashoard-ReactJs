@@ -118,12 +118,19 @@ button[type="submit"]:hover {
     color: var(--common-white, #FFF);
     text-align: center;
     font-family: Nexa;
-    font-size: 15px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     border-radius: 16px;
     background: #40BAFF;
+    padding: 13px 19px;
+}
+
+.banner-body button:hover {
+    color: var(--common-white, #40BAFF);
+    background: #ffffff;
+
 }
 
 .banner-image {
