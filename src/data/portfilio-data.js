@@ -10,7 +10,7 @@ const portfilio_data = [
     },
     {
         title: "Ethereum",
-        image: "../../public/white-icon/Styleguide/eth.svg",
+        image: "../../public/white-icon/Styleguide/eht.svg",
         summary_title: "ETH/USDT",
         financial_price: 215.00,
         profit_loss: "$52 (9%)",

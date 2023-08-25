@@ -159,18 +159,22 @@ button[type="submit"]:hover {
 }
 
 .item-portfilio {
-    width: 350px;
+    box-shadow: 0px 0px 25px 0px rgba(48, 73, 191, 0.07);
     margin-left: 15px;
     display: inline-block;
     border-radius: 16px;
     background: #FFF;
-    box-shadow: 0px 0px 25px 0px rgba(48, 73, 191, 0.07);
+}
+
+.icon-crypto {
+    width: 45px;
+    height: auto;
 }
 
 .summary_title {
     color: var(--common-black, #000);
     font-family: Nexa;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
