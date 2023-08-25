@@ -15,8 +15,8 @@ function Sidebar() {
         <>
             {/* nav in sm */}
             <div className='d-sm-none d-block p-0'>
-                <div class="collapse " id="navbarToggleExternalContent">
-                    <div class="sidebar_body p-4 text-center">
+                <div className="collapse " id="navbarToggleExternalContent">
+                    <div className="sidebar_body p-4 text-center">
                         {
                             sidebar_data.map((item, index) => (
                                 <div key={item.title}>
@@ -45,15 +45,15 @@ function Sidebar() {
                         {/* end logout logo */}
                     </div>
                 </div>
-                <nav class="navbar navbar-dark sidebar_body">
-                    <div class="container-fluid">
+                <nav className="navbar navbar-dark sidebar_body">
+                    <div className="container-fluid">
                         {/* logo */}
                         <div>
                             <img src='../../public/logo/Logo.svg' />
                         </div>
                         {/* end logo */}
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                         </button>
                     </div>
                 </nav>

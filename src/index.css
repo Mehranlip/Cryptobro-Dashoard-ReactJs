@@ -103,6 +103,7 @@ button[type="submit"]:hover {
     border-radius: 24px;
     background: #4062FF;
     box-shadow: 0px 0px 40px 0px rgba(48, 73, 191, 0.04);
+
 }
 
 .banner-body p {
@@ -140,3 +141,101 @@ button[type="submit"]:hover {
 }
 
 /* end banner components */
+
+/* portfolio commponents */
+.titel-portfolio h5 {
+    color: var(--common-black, #000);
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.item-portfilio {
+    width: 350px;
+    margin-left: 15px;
+    display: inline-block;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(48, 73, 191, 0.07);
+}
+
+.summary_title {
+    color: var(--common-black, #000);
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.title-crypto {
+    color: var(--grey-500, #919EAB);
+    font-family: Nexa;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.financial_price {
+    color: var(--common-black, #000);
+    text-align: right;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profit_loss-red {
+    color: var(--error-main, #FF4842);
+    text-align: right;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profit_loss-green {
+    color: #6DD64D;
+    text-align: right;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* width */
+::-webkit-scrollbar {
+    height: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(179, 179, 179, 0.137);
+    border-radius: 5px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #92929217;
+}
+
+/* end portfolio commponents */
