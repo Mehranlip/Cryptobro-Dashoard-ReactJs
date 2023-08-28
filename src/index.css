@@ -243,3 +243,85 @@ button[type="submit"]:hover {
 }
 
 /* end portfolio commponents */
+
+/* account section */
+.title-account {
+    color: var(--common-black, #000);
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.cart-accounts {
+    height: 180px;
+    border-radius: 24px;
+    background: #4062FF;
+    background-image: url('../public/white-icon/Styleguide/bg-cart-accounts.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.financial-price {
+    color: #FFF;
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Profit-loss {
+    color: var(--common-white, #FFF);
+    font-family: Nexa;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-cart {
+    width: 30%;
+    border-radius: 26px;
+    background: #4081FF;
+}
+
+.btn-deposit {
+    color: var(--common-white, #FFF);
+    text-align: center;
+    font-family: Nexa;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 16px;
+    background: #4062FF;
+    padding: 10px 15px 10px 15px;
+}
+
+.btn-withdraw {
+    color: var(--common-white, #FFF);
+    text-align: center;
+    font-family: Nexa;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 16px;
+    background: #40BAFF;
+    padding: 10px 15px 10px 15px;
+
+}
+
+.btn-deposit:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn-withdraw:hover {
+    color: white;
+    background-color: black;
+}
+
+/* account section */
