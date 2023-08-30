@@ -219,6 +219,10 @@ button[type="submit"]:hover {
     line-height: normal;
 }
 
+.USDT-style {
+    color: #a8a8a8;
+}
+
 /* width */
 ::-webkit-scrollbar {
     height: 10px;

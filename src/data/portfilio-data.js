@@ -2,7 +2,7 @@ const portfilio_data = [
     {
         title: "Bitcoin",
         image: "../../public/white-icon/Styleguide/btc.svg",
-        summary_title: "BTC/USDT",
+        summary_title: "BTC",
         financial_price: 135.25,
         profit_loss: "$32 (2%)",
         arrow_image: "../../public/white-icon/Styleguide/Arrow - Down 2.svg",
@@ -11,7 +11,7 @@ const portfilio_data = [
     {
         title: "Ethereum",
         image: "../../public/white-icon/Styleguide/eht.svg",
-        summary_title: "ETH/USDT",
+        summary_title: "ETH",
         financial_price: 215.00,
         profit_loss: "$52 (9%)",
         arrow_image: "../../public/white-icon/Styleguide/Arrow - Up 2.svg",
@@ -23,7 +23,7 @@ const portfilio_data = [
 
         title: "Binance",
         image: "../../public/white-icon/Styleguide/bnb.svg",
-        summary_title: "BNB/USDT",
+        summary_title: "BNB",
         financial_price: 632.00,
         profit_loss: "$33 (5%)",
         arrow_image: "../../public/white-icon/Styleguide/Arrow - Down 2.svg",

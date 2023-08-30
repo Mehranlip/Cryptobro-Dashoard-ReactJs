@@ -18,7 +18,10 @@ function Portfolio() {
                                             <img className='icon-crypto' src={item.image} />
                                         </div>
                                         <div className='col-8'>
-                                            <span className='summary_title'>{item.summary_title}</span>
+                                            <span className='summary_title'>{item.summary_title}
+                                                <span className='USDT-style'>
+                                                    /USDT
+                                                </span></span>
                                             <br />
                                             <span className='title-crypto'>{item.title}</span>
 
