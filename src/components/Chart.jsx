@@ -67,7 +67,7 @@ function Chart() {
                         <XAxis dataKey="name" />
                         <YAxis />
                         <Tooltip />
-                        <Area type="monotone" dataKey="$" strokeWidth={2.5} stroke="#4062FF" transform='180deg' fill="  rgba(64, 186, 255, 0.20)" />
+                        <Area type="monotone" dataKey="$" strokeWidth={2.5} stroke="#4062FF" fill="  rgba(64, 186, 255, 0.20)" />
                     </AreaChart>
                 </ResponsiveContainer>
             </div>

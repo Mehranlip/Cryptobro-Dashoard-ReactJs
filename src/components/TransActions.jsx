@@ -9,7 +9,7 @@ function TransActions() {
             </h4>
             {
                 transaction_data.map((item) => (
-                    <div className='row mb-3 align-items-center justify-content-between'>
+                    <div key={item.title} className='row mb-3 align-items-center justify-content-between'>
                         <div className='col-2'>
                             <img className='icon-crypto' src={item.image} />
                         </div>

@@ -7,7 +7,7 @@ function Portfolio() {
             <div className='titel-portfolio'>
                 <h5>My Portfolio</h5>
             </div>
-            <div class="scroll-container">
+            <div className="scroll-container">
                 {
                     portfilio_data.map((item) => (
                         <div key={item.title} className='item-portfilio col-md-5 col-10 p-0 p-md-2'>
