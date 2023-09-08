@@ -328,4 +328,51 @@ button[type="submit"]:hover {
     background-color: black;
 }
 
+.title-transactions {
+    color: var(--common-black, #000);
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.transaction-name {
+    color: var(--common-black, #000);
+    font-family: Nexa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.transaction-date {
+    color: #919EAB;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.trans_loss-red {
+    color: #FF4842;
+    font-family: Nexa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.trans_loss-green {
+    color: #6DD64D;
+    font-family: Nexa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
 /* account section */

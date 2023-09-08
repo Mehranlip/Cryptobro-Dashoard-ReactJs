@@ -1,4 +1,5 @@
 import React from 'react'
+import TransActions from './TransActions'
 
 function Accounts() {
     return (
@@ -31,7 +32,7 @@ function Accounts() {
             {/* cart Account */}
             <div className='row px-5'>
                 <div className='col-12'>
-                    <h4 className='title-account'>Accounts</h4>
+                    <h4 className='title-account mb-2'>Accounts</h4>
                     <div className='row cart-accounts text-center justify-content-center align-items-center'>
                         <div>
                             <span className='financial-price'>
@@ -66,6 +67,9 @@ function Accounts() {
 
             </div>
             {/* end buttons */}
+            {/* recent transaction */}
+            <TransActions />
+            {/* end recent transaction */}
         </div>
     )
 }
