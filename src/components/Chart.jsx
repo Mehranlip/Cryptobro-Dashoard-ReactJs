@@ -43,9 +43,9 @@ const data = [
 
 function Chart() {
     return (
-        <>
+        <div className='box-chart'>
             <div className='row'>
-                <div className='col px-2'>
+                <div className='col px-2 py-1'>
                     <img className='activity-icon' src='../../public/white-icon/Styleguide/Activity.svg' />
                     <span className='title-cahrt px-2 '>Total Portfolio</span>
                 </div>
@@ -60,18 +60,18 @@ function Chart() {
                             top: 5,
                             right: 0,
                             left: 0,
-                            bottom: 0
+                            bottom: 10
                         }}
 
                     >
                         <XAxis dataKey="name" />
                         <YAxis />
                         <Tooltip />
-                        <Area type="monotone" dataKey="$" strokeWidth={2.5} stroke="#4062FF" fill="rgba(64, 186, 255, 0.20)" />
+                        <Area type="monotone" dataKey="$" strokeWidth={2.5} stroke="#4062FF" transform='180deg' fill="  rgba(64, 186, 255, 0.20)" />
                     </AreaChart>
                 </ResponsiveContainer>
             </div>
-        </>
+        </div>
     )
 }
 
