@@ -3,7 +3,7 @@ import portfilio_data from './../data/portfilio-data';
 
 function Portfolio() {
     return (
-        <div className='row mt-1 p-2'>
+        <div className='row mt-3 p-2'>
             <div className='titel-portfolio'>
                 <h5>My Portfolio</h5>
             </div>

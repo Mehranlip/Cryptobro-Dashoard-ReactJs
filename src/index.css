@@ -87,7 +87,7 @@ button[type="submit"] {
     margin: 0;
     border: 1px solid transparent;
     border-radius: inherit;
-    background: transparent url("../public/icons/Search.svg") no-repeat center;
+    background: transparent url("/icons/Search.svg") no-repeat center;
     cursor: pointer;
     opacity: 0.3;
 }
@@ -137,7 +137,7 @@ button[type="submit"]:hover {
 .banner-image {
     width: 250px;
     height: 220px;
-    background: transparent url("../public/white-icon/Styleguide/nft-owner-4418547-3664058\ 1.svg") no-repeat center;
+    background: transparent url("../white-icon/Styleguide/nft-owner-4418547-3664058\ 1.svg") no-repeat center;
 }
 
 /* end banner components */
@@ -262,7 +262,7 @@ button[type="submit"]:hover {
     height: 180px;
     border-radius: 24px;
     background: #4062FF;
-    background-image: url('../public/white-icon/Styleguide/bg-cart-accounts.svg');
+    background-image: url('../white-icon/Styleguide/bg-cart-accounts.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }

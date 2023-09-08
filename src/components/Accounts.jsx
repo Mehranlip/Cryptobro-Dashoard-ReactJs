@@ -7,14 +7,14 @@ function Accounts() {
             {/* navbar account */}
             <div className='row px-5 py-2'>
                 <div className='col-6 mt-2'>
-                    <img src='../../public/white-icon/Styleguide/Notification.svg' />
+                    <img src='../../white-icon/Styleguide/Notification.svg' />
                 </div>
                 <div className='col-6'>
                     <div className='row'>
                         <div className='col'>
                             <div className="dropdown">
                                 <a className="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img className='mx-2' src='../../public/white-icon/Styleguide/avatar.svg' />
+                                    <img className='mx-2' src='../../white-icon/Styleguide/avatar.svg' />
                                     Mehran
                                 </a>
 
@@ -40,7 +40,7 @@ function Accounts() {
                             </span>
                             <br />
                             <span className='btn-cart px-2 py-1'>
-                                <img src='../../public/white-icon/Styleguide/Arrow - Up 2-w.svg' />
+                                <img src='../../white-icon/Styleguide/Arrow - Up 2-w.svg' />
                                 <span className='Profit-loss '>
                                     $32 (2%)
                                 </span>
@@ -54,13 +54,13 @@ function Accounts() {
             <div className='row px-5 justify-content-center mt-3'>
                 <div className='col-6 text-center'>
                     <button className='btn btn-deposit'>
-                        <img className='mx-2' src='../../public/white-icon/Styleguide/Arrow-mash-down.svg' />
+                        <img className='mx-2' src='../../white-icon/Styleguide/Arrow-mash-down.svg' />
                         Deposit
                     </button>
                 </div>
                 <div className='col-6 text-center'>
                     <button className='btn btn-withdraw'>
-                        <img className='mx-2' src='../../public/white-icon/Styleguide/Arrow-mash-up.svg' />
+                        <img className='mx-2' src='../../white-icon/Styleguide/Arrow-mash-up.svg' />
                         Withdraw
                     </button>
                 </div>

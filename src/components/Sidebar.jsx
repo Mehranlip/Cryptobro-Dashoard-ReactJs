@@ -38,7 +38,7 @@ function Sidebar() {
                         <div className='row justify-content-center align-items-center text-justify fixed-button mt-2'>
                             <Link
                                 className='col text-decoration-none mb-4  logout-sidebar px-3 py-2 '>
-                                <img className='mx-2' src='../../public/white-icon/Styleguide/Logout.svg' />
+                                <img className='mx-2' src='../../white-icon/Styleguide/Logout.svg' />
                                 <span>Logout</span>
                             </Link>
                         </div>
@@ -49,7 +49,7 @@ function Sidebar() {
                     <div className="container-fluid">
                         {/* logo */}
                         <div>
-                            <img src='../../public/logo/Logo.svg' />
+                            <img src='../../logo/Logo.svg' />
                         </div>
                         {/* end logo */}
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,7 +64,7 @@ function Sidebar() {
             <div className='d-none d-md-inline col-12 col-md-auto px-0 px-md-5 py-2 sidebar_body vh-100'>
                 {/* logo */}
                 <div className='mb-5'>
-                    <img src='../../public/logo/Logo.svg' />
+                    <img src='../../logo/Logo.svg' />
                 </div>
                 {/* end logo */}
                 {
@@ -88,7 +88,7 @@ function Sidebar() {
                 <div className='row justify-content-center align-items-center text-justify fixed-button mt-5'>
                     <Link
                         className='col text-decoration-none mb-4  logout-sidebar px-3 py-2 mt-5'>
-                        <img className='mx-2' src='../../public/white-icon/Styleguide/Logout.svg' />
+                        <img className='mx-2' src='../../white-icon/Styleguide/Logout.svg' />
                         <span>Logout</span>
                     </Link>
                 </div>

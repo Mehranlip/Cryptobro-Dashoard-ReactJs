@@ -43,15 +43,15 @@ const data = [
 
 function Chart() {
     return (
-        <div className='box-chart'>
+        <div className='box-chart mt-4'>
             <div className='row'>
                 <div className='col px-2 py-1'>
-                    <img className='activity-icon' src='../../public/white-icon/Styleguide/Activity.svg' />
+                    <img className='activity-icon' src='../../white-icon/Styleguide/Activity.svg' />
                     <span className='title-cahrt px-2 '>Total Portfolio</span>
                 </div>
 
             </div>
-            <div className='mt-3'>
+            <div className='mt-4'>
                 <ResponsiveContainer width="100%" height={200}>
                     <AreaChart
                         data={data}
