@@ -24,8 +24,6 @@ const transaction_data = [
         status: "Buy"
     },
 
-
-
 ]
 
 
