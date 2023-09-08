@@ -3,6 +3,7 @@ import Searchbar from '../components/Searchbar'
 import Banner from '../components/Banner'
 import Portfolio from '../components/portfolio'
 import Accounts from '../components/Accounts'
+import Chart from '../components/Chart'
 
 function MainDashboard() {
     return (
@@ -12,6 +13,7 @@ function MainDashboard() {
                     <Searchbar />
                     <Banner />
                     <Portfolio />
+                    <Chart />
                 </div>
                 <div className='col-12 col-md-5 order-0 order-md-1'>
                     <Accounts />

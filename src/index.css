@@ -376,3 +376,66 @@ button[type="submit"]:hover {
 
 
 /* account section */
+
+/* cahrts */
+.activity-icon {
+    width: 35px;
+}
+
+.title-cahrt {
+    color: var(--common-black, #000);
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+tspan {
+    color: var(--grey-500, #919EAB);
+    text-align: right;
+    font-family: Nexa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.recharts-default-tooltip {
+    background-color: #40BAFF !important;
+    border-radius: 15px !important;
+}
+
+.recharts-tooltip-label {
+    display: none;
+}
+
+.recharts-tooltip-item-separator {
+    display: none;
+}
+
+.recharts-tooltip-item {
+    color: #FFF !important;
+    font-family: Nexa !important;
+    font-size: 12px;
+    font-style: normal !important;
+    font-weight: 700;
+    line-height: normal !important;
+}
+
+.recharts-dot {
+    fill: #40BAFF !important;
+    width: 10px;
+    stroke-width: 1;
+    r: 9;
+}
+
+.recharts-tooltip-cursor {
+    stroke: rgba(64, 186, 255, 1);
+    stroke-width: 2;
+    border-radius: 5px;
+    opacity: 50%;
+}
+
+
+/* end charts */
